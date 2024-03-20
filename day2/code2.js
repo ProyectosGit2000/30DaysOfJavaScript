@@ -145,13 +145,25 @@ console.log(cadena7.toLowerCase());
 let texto = "Pantera";
 console.log(texto.substr(3,4 )) // advertencia: esto no esta del todo obsoleto sim embargo casi no se usa
 
-//todo: substring(): Toma dos argumentos, el índice inicial y el índice final, pero no incluye el carácter en el índice final.
+//todo: substring() => Toma dos argumentos, el índice inicial y el índice final, pero no incluye el carácter en el índice final.
 let texto2 = "JavaScript";
 console.log(texto2.substring(0, 4)); // Java
 console.log(texto2.substring(4, 10)); // Script
 console.log(texto2.substring(4)); // Script
-
 let country = "Finland";
 console.log(country.substring(0, 3)); // Fin
 console.log(country.substring(3, 7)); // land
 console.log(country.substring(3)); // land
+
+//todo: split() => El método split divide una cadena en un lugar específico.
+let text1 = "30 days of javascript";
+console.log(text1.split(" "));
+let text2 = "Programacion";
+console.log(text2.split(""));
+let text3 = "jorge; jordi; rosa; eduardo; katerine; rebeca";
+console.log(text3.split(";"))
+
+//todo: trim() => Elimina el espacio final al principio o al final de una cadena.
+let titulo = "    JavaScript   ";
+console.log(titulo);
+console.log(titulo.trim(""));
