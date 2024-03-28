@@ -23,22 +23,22 @@ let usuarioUnoa = {
    nombre: "Asabeneh",
    papel: "teaching",
    pais: "Finland",
- };
- let usuarioDos = {
+};
+let usuarioDos = {
    nombre: "Asabeneh",
    papel: "teaching",
    pais: "Finland",
- };
- console.log(usuarioUnoa == usuarioDos)
+};
+console.log(usuarioUnoa == usuarioDos)
 
- let nums2 = [1,2,3];
- let almacenando = nums2;
+let nums2 = [1,2,3];
+let almacenando = nums2;
 console.log(nums2 == almacenando)
 
 let usuarioUno = {
    nombre: "Asabeneh",
    papel: "teaching",
    pais: "Finland",
- };
+};
 let usuarioDosa = usuarioUno;
 console.log(usuarioUno == usuarioDosa);

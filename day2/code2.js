@@ -167,3 +167,33 @@ console.log(text3.split(";"))
 let titulo = "    JavaScript   ";
 console.log(titulo);
 console.log(titulo.trim(""));
+
+//todo: includes() => Toma un argumento de subcadena y verifica si existe un argumento de subcadena en la cadena. includes() devuelve un valor booleano. Si existe una subcadena en una cadena, devuelve verdadero; de lo contrario, devuelve falso.
+let text4 = "Jordi Chavarry";
+console.log(text4.includes("Jordi"));
+console.log(text4.includes("Cha"));
+console.log(text4.includes("jordi"));
+console.log(text4.includes("cha"));
+
+//todo: replace() => toma como parámetro la subcadena antigua y una nueva subcadena.
+let text5 = "Hola me llamo Juan!";
+console.log(text5.replace("Juan", "Jordi"));
+let text6 = "Estoy estudiando el curso de Python, que feliz estoy";
+console.log(text6.replace("Python", "JavaScript"));
+
+//todo: charAt() => Toma índice y devuelve el valor en ese índice
+let text7 = "Los cuyes son gordos";
+console.log(text7.charAt(7));
+
+let text8 = "Hola a todos";
+let longitud = text8.length - 1;
+console.log(text8.charAt(longitud));
+
+//todo: charCodeAt() => Toma el índice y devuelve el código char (número ASCII) del valor en ese índice
+let text9 = "Aprendiendo JavaScript";
+console.log(text9.charCodeAt(8));
+
+//todo: lastIndexOf() =>Toma una subcadena y si la subcadena existe en una cadena, devuelve la última posición de la subcadena; si no existe, devuelve -1
+let text10 = "Hola a todos";
+console.log(text10.indexOf('to'));
+
